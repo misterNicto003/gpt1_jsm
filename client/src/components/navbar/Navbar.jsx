@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="gpt1__navbar">
+    <div className="gpt1__navbar ">
       <div className="gpt1__navbar-links">
         <div className="gpt1__navbar-links_logo">
           <img src={logo} />
